@@ -56,4 +56,4 @@ const companystartend = companies.filter(compani =>(compani.start === 1992 && co
 ## Languages
 
 - English B2
-- Georgia
+- Georgian
