@@ -19,7 +19,7 @@
 - CSS 
 - JavaScript
 - React JS,
-- Version control: Git (remote service GitHub).
+- Version control: Git.
 - bootstrap
 - Editors: Sublime, VSCode, 
 
