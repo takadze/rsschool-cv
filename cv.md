@@ -26,13 +26,25 @@
 
 ## Code examples
 ```
- const companystartend = companies.filter(compani =>(compani.start === 1992 && compani.end == 2020))
+const companies = [
+     {name: "mersedes ", category: "cars", start: 1997, end:2021},
+     {name: "kfc ", category: "food", start: 1969, end:2018},
+     {name: "toyota ", category: "cars", start: 1999, end:2020},
+     {name: "mcdonald ", category: "food", start: 1992, end:2021},
+     {name: "mazda ", category: "cars", start: 1993, end:2021},
+     {name: "boss ", category: "clasic", start: 1992, end:2020},
+     {name: "adidas ", category: "sports", start: 1958, end:2021},
+     {name: "nike ", category: "sports", start: 1979, end:2021},
+     {name: "zara", category: "clasic", start: 1984, end:2019}
+   
+ ];
+     var companycategory = companies.filter(company =>(company.category === 'cars' && company.start >1991))
 
- console.log(companystartend)
- const numberage = numbers.filter(age => age >= 30 && age <= 80)
 
- console.log(numberage)
+console.log(companycategory)
 
+
+const companystartend = companies.filter(compani =>(compani.start === 1992 && compani.end == 2020))
  ```
 
  ## Education
