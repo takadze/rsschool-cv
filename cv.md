@@ -32,3 +32,16 @@
  const numberage = numbers.filter(age => age >= 30 && age <= 80)
 
  console.log(numberage)
+
+ ```
+
+ ## Education
+
+- freecodecamp courses
+- w3 school
+- bitcamp 
+
+## Languages
+
+- English B2
+- Georgia
